@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number 8</title>
+<style>
+    .number-8 {
+        width: 100px;
+        height: 200px;
+        background-color: orange;
+        border-radius: 50%;
+        position: relative;
+    }
+    .number-8::before,
+    .number-8::after {
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .number-8::before {
+        top: 20px;
+        left: 20px;
+    }
+    .number-8::after {
+        bottom: 20px;
+        right: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="number-8"></div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.logo {
+    font-size: 50px; /* Adjust the font size as needed */
+    color: orange;
+    background-color: black;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    display: inline-block;
+    margin: 300px 550px;
+  }
+  
